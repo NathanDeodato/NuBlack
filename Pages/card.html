@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Scripts/cardInfos.js"></script>
+    <link rel="shortcut icon" href="../Assets/cardIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Styles/global.css">
+    <link rel="stylesheet" href="../Styles/card.css">
+    <title>NuBlack - Card</title>
+</head>
+<body>
+    <main>
+        <a href="../Pages/home.html">
+            <img src="../Assets/voltar.png" class="backButton">
+        </a>
+        <div class="cardBox">
+            <div class="cardPreview">
+                <div class="card" id="cardFront">
+                    <p value={cardName}>
+                        
+                    </p>
+                </div>
+                <div class="card" id="cardBack">
+
+                </div>
+            </div>
+            <div class="cardInfos">
+                <div class="miniCardInfos">
+                    <div class="inputsBox">
+                        <input class="inputCard" type="name" placeholder="Card name" id="cardName"/>
+                    </div>
+                    <div class="inputsBox">
+                        <input class="inputCard" type="number" placeholder="Card number" id="cardNumber"/>
+                    </div>
+                    <div class="minInputsBox">
+                        <!-- <div class="inputsBox"> -->
+                            <input class="inputCard" type="number" placeholder="Cod" id="cardCod"/>
+                        <!-- </div> -->
+                        <input class="inputCard" type="date" id="cardDate"/>
+                    </div>
+                    
+                </div>
+                <div class="confirmBox">
+                    <button class="confirmButton" id="cardConfirm">
+                        CONFIRM
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
