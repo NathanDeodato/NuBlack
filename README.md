@@ -17,7 +17,7 @@
 
 ### Design
 
-<a href="">
+<a href="https://www.figma.com/file/jBmqL8Ax3Nz7uUlbBlnsOX/NuBlack?type=design&t=liky6zaXwudgXeCn-6">
     <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </a>
 
